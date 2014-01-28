@@ -1,1 +1,3 @@
-wp-config.php
+/
+!wp-content/themes/hackathon/
+!wp-content/themes/boilerplate/
