@@ -1,5 +1,4 @@
 wp-config.php
 wp-admin/
 wp-includes/
-!wp-content/themes/hackathon/
-!wp-content/themes/boilerplate/
+
