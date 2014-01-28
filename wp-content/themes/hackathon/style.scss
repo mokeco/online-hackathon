@@ -1,0 +1,14 @@
+$color:blue;
+$background:#FFF;
+
+a {
+$link-color:mix($color, pink);
+font: {
+weight: bold;
+family: Arial, sans-serif;
+}
+color: $link-color;
+&:hover {
+color: lighten($link-color, 20%);
+}
+}
