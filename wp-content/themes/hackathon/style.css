@@ -1,0 +1,34 @@
+.hide-text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; }
+
+#wrapper {
+  width: 960px;
+  margin: 0 auto; }
+  #wrapper #siteFrontHead .siteTitle {
+    width: 803px;
+    height: 49px;
+    /*	background:url(../image/site_title.png) no-repeat;*/
+    margin: 0 auto; }
+  #wrapper #siteFrontHead ul.gNav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+    #wrapper #siteFrontHead ul.gNav li {
+      float: left;
+      width: 8em;
+      margin-right: 5px;
+      padding: 2px;
+      border: 1px #ffb366 solid;
+      background-color: #fffdee;
+      text-align: center; }
+      #wrapper #siteFrontHead ul.gNav li .clearLeft {
+        clear: left; }
+
+a {
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  color: #7f60e5; }
+  a:hover {
+    color: #c6b8f3; }
