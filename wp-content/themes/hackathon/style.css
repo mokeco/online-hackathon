@@ -5,10 +5,9 @@
 
 #wrapper {
   width: 960px;
-  margin: 0 auto;
-  /* list */ }
+  margin: 0 auto; }
   #wrapper #siteFrontHead {
-    height: 160px;
+    height: 180px;
     margin: 0 auto; }
     #wrapper #siteFrontHead .siteTitle {
       width: 803px;
@@ -27,19 +26,31 @@
         padding: 2px;
         /*border: 1px #ffb366 solid;
         background-color: #fffdee;*/
-        text-align: center; }
-        #wrapper #siteFrontHead ul.gNav li .clearLeft {
-          clear: left; }
+        text-align: center;
+        overflow: hidden;
+        border: 1px solid #000; }
   #wrapper #container {
     width: 960px;
-    margin: 0 auto; }
-  #wrapper .list {
-    float: left;
-    width: 160px; }
+    /*	height: 700px;*/
+    margin: 0 auto;
+    /* list */ }
+    #wrapper #container .list {
+      float: left;
+      width: 160px;
+      margin: 10px 10px 50px 10px;
+      overflow: hidden;
+      border: 1px solid #000; }
+    #wrapper #container li.photo {
+      font-size: 14px;
+      list-style-type: none;
+      width: 50px;
+      margin-left: -15px;
+      float: left;
+      overflow: hidden;
+      border: 1px solid #000; }
+    #wrapper #container #siteFrontFooter {
+      border: 1px solid #000;
+      width: 960px; }
 
-a {
-  font-weight: bold;
-  font-family: Arial, sans-serif;
-  color: #7f60e5; }
-  a:hover {
-    color: #c6b8f3; }
+.clear {
+  clear: both; }

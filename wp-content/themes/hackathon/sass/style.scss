@@ -10,7 +10,7 @@ $background:#FFF;
 	width:960px;
 	margin:0 auto;
 		 #siteFrontHead {
-		 	height: 160px;
+		 	height: 180px;
 		 	margin: 0 auto;
 			.siteTitle {
 				width:803px;
@@ -33,35 +33,45 @@ $background:#FFF;
 				/*border: 1px #ffb366 solid;
 				background-color: #fffdee;*/
 				text-align: center;
+				overflow: hidden;
+				border:1px solid #000;
 
 
-
-.clearLeft {
-clear: left;
-}
 }
 }
 			}
 			#container {
 				width: 960px;
+			/*	height: 700px;*/
 				margin:0 auto;
 
-			}
 	.list{
 				float: left;
 				width: 160px;
+				margin: 10px 10px 50px 10px;
+				overflow: hidden;
+				border:1px solid #000;
 			}/* list */
-}
 
 
-a {
-$link-color:mix($color, pink);
-font: {
-weight: bold;
-family: Arial, sans-serif;
+		 li.photo {
+				font-size: 14px;
+				list-style-type: none;
+				width:50px;
+				margin-left:-15px;
+				float: left;
+				overflow: hidden;
+				border:1px solid #000;
+			}
+			#siteFrontFooter {
+			border:1px solid #000;
+				width: 960px;
+
+
+			}
+
 }
-color: $link-color;
-&:hover {
-color: lighten($link-color, 20%);
 }
+.clear {
+clear: both;
 }
